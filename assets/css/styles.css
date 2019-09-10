@@ -1,6 +1,6 @@
 .jumbotron{
     background-image: url("../img/sushi-resto.jpg");
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
 }
 h1{
@@ -68,7 +68,7 @@ $social-width: 20%;
 
 }
 h5{
-  text-shadow: 0px 4px 4px black;
+  text-shadow: 0px 4px 4px #414141;
   color: goldenrod;
 }
 .form-row{
