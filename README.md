@@ -3,7 +3,7 @@
 
 ![Logo](/assets/img/mount-fuji.png)
 </p>
-## Lien des consignes  
+<h2> Lien des consignes </h2> 
 
 https://github.com/becodeorg/BXL-Johnson-4.14/blob/master/03-HTML-CSS/bootstrap/restaurant.adoc
 
@@ -22,7 +22,7 @@ A page about the restaurants (it’s a franchise) with its addresses, a map, and
   <li>A page with a contact form containing the firstname, lastname, email, subject of the message</li>
 </ul>
 
-##Languages utilisés?
+<h2>Languages utilisés?</h2>
 
 <ul>
   <li>HTML</li>
@@ -30,7 +30,7 @@ A page about the restaurants (it’s a franchise) with its addresses, a map, and
   <li>Bootstrap</li>
  </ul>
 
-##Source images:
+<h2>Source images:</h2>
 
 <ul>
   <li>https://pixabay.com/photos/sushi-japanese-plate-power-fish-2853382/</li>
@@ -43,7 +43,9 @@ A page about the restaurants (it’s a franchise) with its addresses, a map, and
   <li>https://pixabay.com/photos/green-tea-ice-cream-hong-kong-mango-503769/</li>
   <li>https://pixabay.com/photos/sake-breeze-basin-ecchu-yatsuo-985413/</li>
   <li>https://www.google.com/search?q=beer+640x480&tbm=isch&sxsrf=ACYBGNSxP1FO5yRWnhj_SmFS4L5sT6wBtg:1568126518322&source=lnt&tbs=sur:fm&sa=X&ved=0ahUKEwj2ktnAvsbkAhVHwsQBHVNfA7wQpwUIJA&biw=1440&bih=789&dpr=1</li>
-</ul>
+</ul>  
+
+
 
 <p align="center">
   <img src="https://media.giphy.com/media/EdjBHPlzl1i4o/giphy.gif" height="50%" width="50%">
