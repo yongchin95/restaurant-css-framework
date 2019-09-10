@@ -19,7 +19,7 @@
     <header>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="d-flex flex-grow-1">
-                            <a href="index.html"><img src="/assets/img/mount-fuji.png" height="50px" width="50px" alt="logo mont fuji"></a>
+                            <a href="index.html"><img src="assets/img/mount-fuji.png" height="50px" width="50px" alt="logo mont fuji"></a>
                         <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
                         <a class="navbar-brand" href="index.html">
                            Fuji-san
@@ -33,12 +33,18 @@
                     <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
                         <ul class="navbar-nav ml-auto flex-nowrap">
                          <li class="nav-item">
-                             <a href="indexMenu.html" class="nav-link">Menu</a>
-
-                             <!-- <button type="button" class="close" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                  </button> -->
-                            </li>
+                            <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="indexMenu.html" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+                                   <div class="dropdown-menu"> 
+                                     <a class="dropdown-item" href="#Starter">Starter</a>
+                                     <a class="dropdown-item" href="#Set">Set de sushi</a>
+                                     <a class="dropdown-item" href="#Dishes">Dishes</a>
+                                     <a class="dropdown-item" href="#Desserts">Desserts</a>
+                                     <div class="dropdown-divider"></div>
+                                     <a class="dropdown-item" href="#Drink">Drink</a>
+                                   </div>
+                                 </li>
+                            
                             <li class="nav-item">
                         <a href="indexPicture.html" class="nav-link">Picture</a>
                             </li>
@@ -69,7 +75,7 @@
                     <div class="col-12 text-center
                     ">
                         <div class="page-section">
-                            <h1 class="page-title">Menu</h1>
+                         <h2 class="page-title" class="border"> Menu</h2> 
                         </div>
                     </div>
                 </div>
@@ -78,10 +84,41 @@
 
                 <div id="accordion">
                         <div class="card">
+                                <div class="card-header" id="headingzero">
+                                  <h5 class="mb-0">
+                                    <button name="Starter" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsezero" aria-expanded="false" aria-controls="collapsezero">
+                                        <a name="Starter">Starter</a> 
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapsezero" class="collapse" aria-labelledby="headingzero" data-parent="#accordion">
+                                  <div class="card-body">
+                                          <ul class="list-group">
+                                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                          GYOZA <br>(6p chicken & vegetable)    
+                                                    <span class="badge badge-primary badge-pill">10€</span>
+                                                  </li>
+                                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                          EDAMAME <br>(Immature soy beans, boiled in salted water and served whole)
+                                                    <span class="badge badge-primary badge-pill">8€</span>
+                                                  </li>
+                                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                          WAKAME SALAD  <br>(seaweed salad)
+                                                    <span class="badge badge-primary badge-pill">7€</span>
+                                                  </li>
+                                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                          TEMPURA  <br>(tempura shrimp + vegetables)
+                                                    <span class="badge badge-primary badge-pill">15€</span>
+                                                  </li>
+                                          </ul>
+                                  </div>
+                                </div>
+                              </div>
+                        <div class="card">
                           <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
-                              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Set de sushi
+                              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> <a name="Set">
+                                Set de sushi</a>
                               </button>
                             </h5>
                           </div>
@@ -106,36 +143,98 @@
                                                             California: Kappa (concombre) & Fromage)
                                                       <span class="badge badge-primary badge-pill">17€</span>
                                                     </li>
+                                            </ul>
                                     </div>
                                 </div>
                              </div>
                         <div class="card">
                           <div class="card-header" id="headingTwo">
                             <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Collapsible Group Item #2
+                              <button name="Dishes" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <a name="Dishes">Dishes (Bento)</a> 
                               </button>
                             </h5>
                           </div>
                           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                             <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    <ul class="list-group">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    YAKITORI <br>(chicken skewer 6p + rice + miso soup)    
+                                              <span class="badge badge-primary badge-pill">25€</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    SAKE TERIYAKI <br>(salmon teriyaki + rice + miso soup)
+                                              <span class="badge badge-primary badge-pill">23€</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    YAKINIKU  <br>(beef grill +rice + miso soup)
+                                              <span class="badge badge-primary badge-pill">21€</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    TEMPURA UDON <br>(noddles+ tempura shrimp + vegetables)
+                                              <span class="badge badge-primary badge-pill">19€</span>
+                                            </li>
+                                    </ul>
                             </div>
                           </div>
                         </div>
                         <div class="card">
                           <div class="card-header" id="headingThree">
                             <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Collapsible Group Item #3
+                              <button name="Desserts" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  <a name="Desserts">Desserts</a> 
                               </button>
                             </h5>
                           </div>
                           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                             <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    <ul class="list-group">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    MATCHA ICE CREAM <br>(2 balls icecream)    
+                                              <span class="badge badge-primary badge-pill">8€</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    MOCHI <br>(3p mochi with red beans)
+                                              <span class="badge badge-primary badge-pill">9€</span>
+                                            </li>
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                    YUKIMI DAIFUKU  <br>(Vanilla ice cream wrapped in a layer of rice cake)
+                                              <span class="badge badge-primary badge-pill">10€</span>
+                                            </li>
+                                    </ul>
                             </div>
                           </div>
                         </div>
-                      </div>
+                        <div class="card">
+                                <div class="card-header" id="headingFour">
+                                  <h5 class="mb-0">
+                                    <button name="Drink" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <a name="Drink">Drink</a> 
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                  <div class="card-body">
+                                          <ul class="list-group">
+                                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                          ICE TEA <br>(Green tea with sugar or without sugar)    
+                                                    <span class="badge badge-primary badge-pill">5€</span>
+                                                  </li>
+                                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                          HOT TEA <br>(Green Tea, Jasmine, Lemon, Rose, Ginger)
+                                                    <span class="badge badge-primary badge-pill">5€</span>
+                                                  </li>
+                                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                           SAKE <br>(Ice or Hot)
+                                                    <span class="badge badge-primary badge-pill">8€</span>
+                                                  </li>
+                                                  <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                            BEER <br>(Asahi/Kirin/Sapporo)
+                                                <span class="badge badge-primary badge-pill">5€</span>
+                                                    </li>
+                                          </ul>
+                                  </div>
+                                </div>
+                         </div>
+                     </div>
 </body>

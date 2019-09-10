@@ -15,11 +15,12 @@
 </head>
 
 <body>
-    
-        <header>
+    <!--HEADER BANNIERRE-->
+
+    <header>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="d-flex flex-grow-1">
-                            <a href="index.html"><img src="/assets/img/mount-fuji.png" height="50px" width="50px" alt="logo mont fuji"></a>
+                            <a href="index.html"><img src="assets/img/mount-fuji.png" height="50px" width="50px" alt="logo mont fuji"></a>
                         <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
                         <a class="navbar-brand" href="index.html">
                            Fuji-san
@@ -32,12 +33,7 @@
                     </div>
                     <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
                         <ul class="navbar-nav ml-auto flex-nowrap">
-                         <li class="nav-item">
                              <a href="indexMenu.html" class="nav-link">Menu</a>
-
-                             <!-- <button type="button" class="close" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                  </button> -->
                             </li>
                             <li class="nav-item">
                         <a href="indexPicture.html" class="nav-link">Picture</a>
@@ -51,4 +47,63 @@
                      </ul>
                   </div>
                 </nav>
+            <main>
+                        <div class="jumbotron">
+                              <h1 class="display-4">Fuji-san</h1>
+                              <h1 class="lead">Fuji-san offers modern authentic Japanese dining in Brussels.</h1>
+                              
+                              
+                      </div>
+            </main>
     </header>
+
+
+    <div class="row">
+            <div class="col-12 text-center">
+                <div class="page-section">
+                 <h2 class="page-picture" class="border"> Contact</h2> 
+                </div>
+            </div>
+        </div>
+
+        <form>
+                <div class="form-row">
+                  <div class="col">
+                        <label for="exampleFormControlInput1">First name:</label>
+                    <input type="text" class="form-control" placeholder="First name">
+                  </div>
+                  <div class="col">
+                        <label for="exampleFormControlInput1">Last name:</label>
+                    <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+                </div>
+              <br>
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                                <label for="exampleFormControlInput1">Email address:</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputState">Reservation:</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>19h00</option>
+                            <option>19h30</option>
+                            <option>20h00</option>
+                            <option>20h30</option>
+                            <option>21h00</option>
+                            <option>21h30</option>
+                          </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Commentaire:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-warning">Register</button>
+                </form>
+
+
+
+</body>
