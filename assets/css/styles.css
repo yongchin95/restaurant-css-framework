@@ -1,5 +1,5 @@
 .jumbotron{
-    background-image: url(/assets/img/sushi-resto.jpg);
+    background-image: url("../img/sushi-resto.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
 }
@@ -31,7 +31,7 @@ aside{
     margin-bottom: 2cm;
 }
 .card_event{
-    background-image: url(assets/img/freestocks-org-Y9mWkERHYCU-unsplash.jpg);
+    background-image: url("../img/freestocks-org-Y9mWkERHYCU-unsplash.jpg");
         background-size: 100%;
         background-repeat: no-repeat;
 }
